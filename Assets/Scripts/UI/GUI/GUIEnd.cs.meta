@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 67a5ec24af90f47439488299a448440a
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - _GUISkin: {instanceID: 0}
+  - text30: {instanceID: 0}
+  - text40: {instanceID: 0}
+  - Film: {fileID: 2800000, guid: ea549f5b73ba3214284930cba8c7c777, type: 3}
+  - BG_Result1: {instanceID: 0}
+  - BG_Result2: {instanceID: 0}
+  - BG_mission: {instanceID: 0}
+  - Home: {instanceID: 0}
+  - Shop2: {instanceID: 0}
+  - playAgain2: {instanceID: 0}
+  - Share: {instanceID: 0}
+  - btShare: {instanceID: 0}
+  - BGrevive: {instanceID: 0}
+  - BigSkin: {instanceID: 0}
+  - bg_MissionDetail: {instanceID: 0}
+  - bg_MissionClear: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

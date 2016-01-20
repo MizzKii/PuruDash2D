@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: 8788b3b8f46df51409f6b5b341cce711
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: camera1
+    100004: pPlane1
+    100006: pPlane10
+    100008: pPlane2
+    100010: pPlane4
+    100012: pPlane5
+    100014: pPlane6
+    100016: pPlane7
+    100018: pPlane8
+    100020: pPlane9
+    400000: //RootNode
+    400002: camera1
+    400004: pPlane1
+    400006: pPlane10
+    400008: pPlane2
+    400010: pPlane4
+    400012: pPlane5
+    400014: pPlane6
+    400016: pPlane7
+    400018: pPlane8
+    400020: pPlane9
+    2300000: pPlane1
+    2300002: pPlane10
+    2300004: pPlane2
+    2300006: pPlane4
+    2300008: pPlane5
+    2300010: pPlane6
+    2300012: pPlane7
+    2300014: pPlane8
+    2300016: pPlane9
+    3300000: pPlane1
+    3300002: pPlane10
+    3300004: pPlane2
+    3300006: pPlane4
+    3300008: pPlane5
+    3300010: pPlane6
+    3300012: pPlane7
+    3300014: pPlane8
+    3300016: pPlane9
+    4300000: pPlane4
+    4300002: pPlane1
+    4300004: pPlane5
+    4300006: pPlane6
+    4300008: pPlane7
+    4300010: pPlane8
+    4300012: pPlane9
+    4300014: pPlane10
+    4300016: pPlane2
+    7400000: RUN
+    7400002: DOWN_1
+    7400004: DOWN_2
+    7400006: ATTACK_DOWN
+    7400008: DOWN_TO_RUN
+    7400010: UP_1
+    7400012: UP_2
+    7400014: ATTACK_UP
+    7400016: UP_TO_RUN
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RUN
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 15
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane4/pPlane1
+        weight: 1
+      - path: pPlane4/pPlane2
+        weight: 1
+      - path: pPlane4/pPlane5
+        weight: 1
+      - path: pPlane4/pPlane5/pPlane6
+        weight: 1
+      - path: pPlane4/pPlane7
+        weight: 1
+      - path: pPlane4/pPlane7/pPlane8
+        weight: 1
+      - path: pPlane4/pPlane9
+        weight: 1
+      - path: pPlane4/pPlane10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DOWN_1
+      takeName: Take 001
+      firstFrame: 16
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane4/pPlane1
+        weight: 1
+      - path: pPlane4/pPlane2
+        weight: 1
+      - path: pPlane4/pPlane5
+        weight: 1
+      - path: pPlane4/pPlane5/pPlane6
+        weight: 1
+      - path: pPlane4/pPlane7
+        weight: 1
+      - path: pPlane4/pPlane7/pPlane8
+        weight: 1
+      - path: pPlane4/pPlane9
+        weight: 1
+      - path: pPlane4/pPlane10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DOWN_2
+      takeName: Take 001
+      firstFrame: 26
+      lastFrame: 34
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane4/pPlane1
+        weight: 1
+      - path: pPlane4/pPlane2
+        weight: 1
+      - path: pPlane4/pPlane5
+        weight: 1
+      - path: pPlane4/pPlane5/pPlane6
+        weight: 1
+      - path: pPlane4/pPlane7
+        weight: 1
+      - path: pPlane4/pPlane7/pPlane8
+        weight: 1
+      - path: pPlane4/pPlane9
+        weight: 1
+      - path: pPlane4/pPlane10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ATTACK_DOWN
+      takeName: Take 001
+      firstFrame: 34
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane4/pPlane1
+        weight: 1
+      - path: pPlane4/pPlane2
+        weight: 1
+      - path: pPlane4/pPlane5
+        weight: 1
+      - path: pPlane4/pPlane5/pPlane6
+        weight: 1
+      - path: pPlane4/pPlane7
+        weight: 1
+      - path: pPlane4/pPlane7/pPlane8
+        weight: 1
+      - path: pPlane4/pPlane9
+        weight: 1
+      - path: pPlane4/pPlane10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DOWN_TO_RUN
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane4/pPlane1
+        weight: 1
+      - path: pPlane4/pPlane2
+        weight: 1
+      - path: pPlane4/pPlane5
+        weight: 1
+      - path: pPlane4/pPlane5/pPlane6
+        weight: 1
+      - path: pPlane4/pPlane7
+        weight: 1
+      - path: pPlane4/pPlane7/pPlane8
+        weight: 1
+      - path: pPlane4/pPlane9
+        weight: 1
+      - path: pPlane4/pPlane10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: UP_1
+      takeName: Take 001
+      firstFrame: 74
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane4/pPlane1
+        weight: 1
+      - path: pPlane4/pPlane2
+        weight: 1
+      - path: pPlane4/pPlane5
+        weight: 1
+      - path: pPlane4/pPlane5/pPlane6
+        weight: 1
+      - path: pPlane4/pPlane7
+        weight: 1
+      - path: pPlane4/pPlane7/pPlane8
+        weight: 1
+      - path: pPlane4/pPlane9
+        weight: 1
+      - path: pPlane4/pPlane10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: UP_2
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 95
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane4/pPlane1
+        weight: 1
+      - path: pPlane4/pPlane2
+        weight: 1
+      - path: pPlane4/pPlane5
+        weight: 1
+      - path: pPlane4/pPlane5/pPlane6
+        weight: 1
+      - path: pPlane4/pPlane7
+        weight: 1
+      - path: pPlane4/pPlane7/pPlane8
+        weight: 1
+      - path: pPlane4/pPlane9
+        weight: 1
+      - path: pPlane4/pPlane10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ATTACK_UP
+      takeName: Take 001
+      firstFrame: 95
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane4/pPlane1
+        weight: 1
+      - path: pPlane4/pPlane2
+        weight: 1
+      - path: pPlane4/pPlane5
+        weight: 1
+      - path: pPlane4/pPlane5/pPlane6
+        weight: 1
+      - path: pPlane4/pPlane7
+        weight: 1
+      - path: pPlane4/pPlane7/pPlane8
+        weight: 1
+      - path: pPlane4/pPlane9
+        weight: 1
+      - path: pPlane4/pPlane10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: UP_TO_RUN
+      takeName: Take 001
+      firstFrame: 115
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane4/pPlane1
+        weight: 1
+      - path: pPlane4/pPlane2
+        weight: 1
+      - path: pPlane4/pPlane5
+        weight: 1
+      - path: pPlane4/pPlane5/pPlane6
+        weight: 1
+      - path: pPlane4/pPlane7
+        weight: 1
+      - path: pPlane4/pPlane7/pPlane8
+        weight: 1
+      - path: pPlane4/pPlane9
+        weight: 1
+      - path: pPlane4/pPlane10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

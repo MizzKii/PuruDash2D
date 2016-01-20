@@ -1,0 +1,745 @@
+fileFormatVersion: 2
+guid: 33c05bc5b8a9bd447a290f383bed0fc2
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: joint1
+    100002: joint10
+    100004: joint10 1
+    100006: joint14
+    100008: joint18
+    100010: joint2
+    100012: joint2 1
+    100014: joint3
+    100016: joint3 1
+    100018: joint4
+    100020: joint5
+    100022: joint6
+    100024: joint7
+    100026: joint8
+    100028: joint9
+    100030: joint9 1
+    100032: pCube2
+    100034: //RootNode
+    100036: polySurface1
+    100038: SketFin:pCube2
+    100040: SketFin:transform1
+    100042: transform1
+    400000: joint1
+    400002: joint10
+    400004: joint10 1
+    400006: joint14
+    400008: joint18
+    400010: joint2
+    400012: joint2 1
+    400014: joint3
+    400016: joint3 1
+    400018: joint4
+    400020: joint5
+    400022: joint6
+    400024: joint7
+    400026: joint8
+    400028: joint9
+    400030: joint9 1
+    400032: pCube2
+    400034: //RootNode
+    400036: polySurface1
+    400038: SketFin:pCube2
+    400040: SketFin:transform1
+    400042: transform1
+    4300000: polySurface1
+    7400000: STAND
+    7400002: RUN
+    7400004: JUMP_LOW
+    7400006: JUMP_HEIGHT
+    7400008: DASH
+    7400010: HIT
+    7400012: STARTDASH
+    7400014: ENDDASH
+    7400016: LINE
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: STAND
+      takeName: Take 001
+      firstFrame: 279
+      lastFrame: 300
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint4
+        weight: 1
+      - path: joint4/joint5
+        weight: 1
+      - path: joint4/joint5/joint6
+        weight: 1
+      - path: joint4/joint5/joint6/joint1
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2/joint3
+        weight: 1
+      - path: joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1/joint3 1
+        weight: 1
+      - path: joint4/joint5/joint8
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1/joint10 1
+        weight: 1
+      - path: joint4/joint5/joint14
+        weight: 1
+      - path: joint4/joint5/joint14/joint9
+        weight: 1
+      - path: joint4/joint5/joint14/joint9/joint10
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: SketFin:pCube2
+        weight: 1
+      - path: SketFin:pCube2/SketFin:transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RUN
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint4
+        weight: 1
+      - path: joint4/joint5
+        weight: 1
+      - path: joint4/joint5/joint6
+        weight: 1
+      - path: joint4/joint5/joint6/joint1
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2/joint3
+        weight: 1
+      - path: joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1/joint3 1
+        weight: 1
+      - path: joint4/joint5/joint8
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1/joint10 1
+        weight: 1
+      - path: joint4/joint5/joint14
+        weight: 1
+      - path: joint4/joint5/joint14/joint9
+        weight: 1
+      - path: joint4/joint5/joint14/joint9/joint10
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: SketFin:pCube2
+        weight: 1
+      - path: SketFin:pCube2/SketFin:transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JUMP_LOW
+      takeName: Take 001
+      firstFrame: 185
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint4
+        weight: 1
+      - path: joint4/joint5
+        weight: 1
+      - path: joint4/joint5/joint6
+        weight: 1
+      - path: joint4/joint5/joint6/joint1
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2/joint3
+        weight: 1
+      - path: joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1/joint3 1
+        weight: 1
+      - path: joint4/joint5/joint8
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1/joint10 1
+        weight: 1
+      - path: joint4/joint5/joint14
+        weight: 1
+      - path: joint4/joint5/joint14/joint9
+        weight: 1
+      - path: joint4/joint5/joint14/joint9/joint10
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: SketFin:pCube2
+        weight: 1
+      - path: SketFin:pCube2/SketFin:transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JUMP_HEIGHT
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint4
+        weight: 1
+      - path: joint4/joint5
+        weight: 1
+      - path: joint4/joint5/joint6
+        weight: 1
+      - path: joint4/joint5/joint6/joint1
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2/joint3
+        weight: 1
+      - path: joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1/joint3 1
+        weight: 1
+      - path: joint4/joint5/joint8
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1/joint10 1
+        weight: 1
+      - path: joint4/joint5/joint14
+        weight: 1
+      - path: joint4/joint5/joint14/joint9
+        weight: 1
+      - path: joint4/joint5/joint14/joint9/joint10
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: SketFin:pCube2
+        weight: 1
+      - path: SketFin:pCube2/SketFin:transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DASH
+      takeName: Take 001
+      firstFrame: 315
+      lastFrame: 320
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint4
+        weight: 1
+      - path: joint4/joint5
+        weight: 1
+      - path: joint4/joint5/joint6
+        weight: 1
+      - path: joint4/joint5/joint6/joint1
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2/joint3
+        weight: 1
+      - path: joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1/joint3 1
+        weight: 1
+      - path: joint4/joint5/joint8
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1/joint10 1
+        weight: 1
+      - path: joint4/joint5/joint14
+        weight: 1
+      - path: joint4/joint5/joint14/joint9
+        weight: 1
+      - path: joint4/joint5/joint14/joint9/joint10
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: SketFin:pCube2
+        weight: 1
+      - path: SketFin:pCube2/SketFin:transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: HIT
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint4
+        weight: 1
+      - path: joint4/joint5
+        weight: 1
+      - path: joint4/joint5/joint6
+        weight: 1
+      - path: joint4/joint5/joint6/joint1
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2/joint3
+        weight: 1
+      - path: joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1/joint3 1
+        weight: 1
+      - path: joint4/joint5/joint8
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1/joint10 1
+        weight: 1
+      - path: joint4/joint5/joint14
+        weight: 1
+      - path: joint4/joint5/joint14/joint9
+        weight: 1
+      - path: joint4/joint5/joint14/joint9/joint10
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: SketFin:pCube2
+        weight: 1
+      - path: SketFin:pCube2/SketFin:transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: STARTDASH
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 311
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint4
+        weight: 1
+      - path: joint4/joint5
+        weight: 1
+      - path: joint4/joint5/joint6
+        weight: 1
+      - path: joint4/joint5/joint6/joint1
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2/joint3
+        weight: 1
+      - path: joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1/joint3 1
+        weight: 1
+      - path: joint4/joint5/joint8
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1/joint10 1
+        weight: 1
+      - path: joint4/joint5/joint14
+        weight: 1
+      - path: joint4/joint5/joint14/joint9
+        weight: 1
+      - path: joint4/joint5/joint14/joint9/joint10
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: SketFin:pCube2
+        weight: 1
+      - path: SketFin:pCube2/SketFin:transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ENDDASH
+      takeName: Take 001
+      firstFrame: 321
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint4
+        weight: 1
+      - path: joint4/joint5
+        weight: 1
+      - path: joint4/joint5/joint6
+        weight: 1
+      - path: joint4/joint5/joint6/joint1
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2/joint3
+        weight: 1
+      - path: joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1/joint3 1
+        weight: 1
+      - path: joint4/joint5/joint8
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1/joint10 1
+        weight: 1
+      - path: joint4/joint5/joint14
+        weight: 1
+      - path: joint4/joint5/joint14/joint9
+        weight: 1
+      - path: joint4/joint5/joint14/joint9/joint10
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: SketFin:pCube2
+        weight: 1
+      - path: SketFin:pCube2/SketFin:transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LINE
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 150
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint4
+        weight: 1
+      - path: joint4/joint5
+        weight: 1
+      - path: joint4/joint5/joint6
+        weight: 1
+      - path: joint4/joint5/joint6/joint1
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2
+        weight: 1
+      - path: joint4/joint5/joint6/joint1/joint2/joint3
+        weight: 1
+      - path: joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1
+        weight: 1
+      - path: joint4/joint5/joint6/joint18/joint2 1/joint3 1
+        weight: 1
+      - path: joint4/joint5/joint8
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1
+        weight: 1
+      - path: joint4/joint5/joint8/joint9 1/joint10 1
+        weight: 1
+      - path: joint4/joint5/joint14
+        weight: 1
+      - path: joint4/joint5/joint14/joint9
+        weight: 1
+      - path: joint4/joint5/joint14/joint9/joint10
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: SketFin:pCube2
+        weight: 1
+      - path: SketFin:pCube2/SketFin:transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .209999993
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

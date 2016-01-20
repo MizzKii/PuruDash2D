@@ -1,0 +1,56 @@
+fileFormatVersion: 2
+guid: 5709c2de8469ca6429a0b4171a3750a2
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - sk_rank: {instanceID: 0}
+  - text2: {instanceID: 0}
+  - style: {instanceID: 0}
+  - bt_back: {fileID: 2800000, guid: f518a7f44f4068044a332657cd82fe0c, type: 3}
+  - bt_down: {fileID: 2800000, guid: c118aef759ea05b4ea14ce70d04a9761, type: 3}
+  - bt_up: {fileID: 2800000, guid: 38c47b29f2156d14695d4068b481c10a, type: 3}
+  - bt_CursorPlay: {fileID: 2800000, guid: dd92a3244c851b14ab544f5cc0021f14, type: 3}
+  - bt_facebook: {fileID: 2800000, guid: 408fc213826b39e45a4df3232052a409, type: 3}
+  - bt_facebookOn: {fileID: 2800000, guid: f93f725338357a54397e78f19b9774cc, type: 3}
+  - bt_home: {fileID: 2800000, guid: 2fab5c2e97f6d014888192c7b49478c8, type: 3}
+  - bt_length_shop: {fileID: 2800000, guid: 6afc9bb9aa26c9a46ac80e5d19551339, type: 3}
+  - bt_option: {fileID: 2800000, guid: 787252f510ae0244289d91be592ac7f2, type: 3}
+  - bt_pause: {fileID: 2800000, guid: f2e6c3152c8878d47aba37aa219446a9, type: 3}
+  - bt_play: {fileID: 2800000, guid: 63228cde7fd7db046b99d1ef2fa9bc28, type: 3}
+  - bt_playAgain: {fileID: 2800000, guid: 6361910a28de4df40b133df5bd04b9d5, type: 3}
+  - bt_rank: {fileID: 2800000, guid: fcd65416797055c4a9e36932b5b7c725, type: 3}
+  - bt_resume: {fileID: 2800000, guid: 7ff7f1a1bdd514c4fb21a48f94c87139, type: 3}
+  - bt_share: {fileID: 2800000, guid: 18c7110c682584d42a481cd94923e0d9, type: 3}
+  - _btshop: {fileID: 2800000, guid: 50b95f748025b25428526a536b53a553, type: 3}
+  - ico_fever: {fileID: 2800000, guid: e5eadd0e6149c4c65b5c349c03dcb87c, type: 3}
+  - _box: {fileID: 2800000, guid: 14d3e51a0463cec4eb95087458ba0116, type: 3}
+  - _boxSelectShopGr: {fileID: 2800000, guid: e1dad57af08e0594aa62cf1a6062dda6, type: 3}
+  - _boxSelectShopYe: {fileID: 2800000, guid: 93627d48580104e41954c24b30c4d550, type: 3}
+  - BoxSelectShopYeShot: {fileID: 2800000, guid: 399ba459f857ba04d9bebbefd0ec8218,
+      type: 3}
+  - _danger: {fileID: 2800000, guid: ea549f5b73ba3214284930cba8c7c777, type: 3}
+  - _etc: {fileID: 2800000, guid: 8d2ac25b5f8769249aa30455f4d23655, type: 3}
+  - _icon_300x: {fileID: 2800000, guid: 80fe856265043894db0433a47003a823, type: 3}
+  - _life: {fileID: 2800000, guid: 1e63cb17789a0ca4d869ecbb0d3f6160, type: 3}
+  - _mission: {fileID: 2800000, guid: 8c8dcb9773ec7734c925cf199901df15, type: 3}
+  - _noLife: {fileID: 2800000, guid: 46af1ade588303949a8f39d82383271b, type: 3}
+  - _panguin: {fileID: 2800000, guid: 968e069b90743b54a82cd1ca9cceaae2, type: 3}
+  - _Ready: {fileID: 2800000, guid: 4a9328da68e80fc4e99fc4b53931ca96, type: 3}
+  - _score_BG01: {fileID: 2800000, guid: 3e54b72a6aa416c4ca4a16c50efdfb68, type: 3}
+  - _score_BG02: {fileID: 2800000, guid: 1b98d6e01580ed64e908292ac78fcbb8, type: 3}
+  - _score_BG03: {fileID: 2800000, guid: 8a6a85fd909796e4f8d3362d5e5c1235, type: 3}
+  - _shopBoots: {fileID: 2800000, guid: 0db43c65c6a6fab47a5241c1133740b7, type: 3}
+  - _shopItem: {fileID: 2800000, guid: a3e4f4bbcff31444ab1e14416901c46a, type: 3}
+  - _shopMoney: {fileID: 2800000, guid: f5574b5193a41c14ebcbc66feea97ac5, type: 3}
+  - _shopPenguin: {fileID: 2800000, guid: 91b672aac99fe4d49b17a41c290b6277, type: 3}
+  - _shopSnowboard: {fileID: 2800000, guid: d8019bd4f27add54db6a036ddd5e47de, type: 3}
+  - _tapToPlay: {fileID: 2800000, guid: 6f9d357d3b00c8544b9b7863734d4a53, type: 3}
+  - _touch: {fileID: 2800000, guid: a902f19f7de7c1d458323a5e3610ec05, type: 3}
+  - _rank_BG: {fileID: 2800000, guid: db9f3dd8349173b4e8f0fff865620028, type: 3}
+  - _rank_invent: {fileID: 2800000, guid: d1a1c53e86a8df941becccd894919651, type: 3}
+  - _rank_logo: {fileID: 2800000, guid: 1140bba4dd8225247aad3ac4a307bbfd, type: 3}
+  - _picNull: {instanceID: 0}
+  - fb: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

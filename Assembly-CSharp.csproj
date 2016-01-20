@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{4A90923C-AF06-D4DB-0CEE-A2BB6641C009}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_1;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FB.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBScreen.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBSettings.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\InsertPrefab.cs" />
+     <Compile Include="Assets\Scripts\Character\SelectCharacter.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Click.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Controller\AnimeCharacter.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Controller\CameraControl.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Controller\CharacterControl.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Controller\Controller.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Controller\FlowControl.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Controller\GameControl.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Controller\GamePlay.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Controller\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Controller\SoundControl.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Controller\StageControl.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\End.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\BarRealTime.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\BearAttack.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\Button.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\Film.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\IceRealTime.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\PrickerRealTime.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\Puzzle.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\StalactiteRealTime.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\StoneRealTime.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\WallRealTime.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\snowball.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\EventRealTime\throwthing.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Script\BackAttack.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Script\Bird.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Script\Coin.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Script\CoinSet.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Script\Drop.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Script\ForwardAttack.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Script\Pricker.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Script\Spring.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Script\Stalactite.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Script\UnderBox.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Script\UpDown.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Stage\Bonus.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Stage\FeverMode.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Stage\SetA.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Stage\SetB.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Stage\SetRocket.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GameLevel\Stage\start.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Hit\DestoryBee.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Hit\HitCharacter.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Hit\HitCollider.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Hit\HitTrigger2D.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Hit\HitUp.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Hit\Line.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Items\CoinX2.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Items\FeverPoint.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Items\Ghost.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Items\ItemRocket.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Items\JumpUp.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Items\Rocket.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Items\RocketFever.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Items\Vacuum.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\ObjectPool.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\Sprite.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\taptostart.cs" />
+     <Compile Include="Assets\Scripts\Logo.cs" />
+     <Compile Include="Assets\Scripts\SDSDevelopment\SDSSpriteAnimation.cs" />
+     <Compile Include="Assets\Scripts\StartGame\Shop.cs" />
+     <Compile Include="Assets\Scripts\UI\END\UIBonusEnd.cs" />
+     <Compile Include="Assets\Scripts\UI\END\UIEndScore.cs" />
+     <Compile Include="Assets\Scripts\UI\END\UIMission.cs" />
+     <Compile Include="Assets\Scripts\UI\END\UIRevive.cs" />
+     <Compile Include="Assets\Scripts\UI\GUI\GUIEnd.cs" />
+     <Compile Include="Assets\Scripts\UI\GUI\GUIFB.cs" />
+     <Compile Include="Assets\Scripts\UI\GUI\GUIGamePlay.cs" />
+     <Compile Include="Assets\Scripts\UI\GUI\GUISetting.cs" />
+     <Compile Include="Assets\Scripts\UI\GUI\Modifier.cs" />
+     <Compile Include="Assets\Scripts\UI\GUI\SetUpGUIMatrix.cs" />
+     <Compile Include="Assets\Scripts\UI\PLAY\UIMain.cs" />
+     <Compile Include="Assets\Scripts\UI\PLAY\UIMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\PLAY\UIPause.cs" />
+     <Compile Include="Assets\Scripts\UI\PLAY\UIRanking.cs" />
+     <Compile Include="Assets\Scripts\UI\PLAY\UIReady.cs" />
+     <Compile Include="Assets\Scripts\UI\PLAY\UIStart.cs" />
+     <Compile Include="Assets\Scripts\UI\SHOP\Main_Shop.cs" />
+     <Compile Include="Assets\Scripts\UI\SHOP\UITexture_Shop.cs" />
+     <Compile Include="Assets\Scripts\UI\SHOP\UI_Shop.cs" />
+     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+     <Compile Include="Assets\Scripts\UI\UITexture.cs" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_top_button.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\proguard.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\R.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_item_background.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_image.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-hdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\facebook\build.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_blue.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_login_activity_layout.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-mdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\drawables.xml" />
+     <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_loginbutton_silver.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-he\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_check.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
+ <Reference Include="IFacebook">
+ <HintPath>Assets\Facebook\Scripts\IFacebook.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
